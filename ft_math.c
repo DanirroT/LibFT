@@ -6,7 +6,7 @@
 /*   By: dmota-ri <dmota-ri@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/17 12:25:03 by dmota-ri          #+#    #+#             */
-/*   Updated: 2026/01/08 16:55:22 by dmota-ri         ###   ########.fr       */
+/*   Updated: 2026/01/09 15:38:53 by dmota-ri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ int	ft_sqr(int nb, int round)
 	if (nb == 0 || nb == 1)
 		return (nb);
 	guess = nb / 2;
-	while (!(guess < 2))
+	while (!(guess < 1))
 	{
 		if ((guess * guess) == nb)
 			return (guess);
