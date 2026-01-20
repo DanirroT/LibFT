@@ -6,7 +6,7 @@
 #    By: dmota-ri <dmota-ri@student.42lisboa.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/10/17 12:24:40 by dmota-ri          #+#    #+#              #
-#    Updated: 2026/01/08 16:55:52 by dmota-ri         ###   ########.fr        #
+#    Updated: 2026/01/20 11:13:50 by dmota-ri         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -28,10 +28,15 @@ SRC = ft_change.c\
 	ft_str_22.c\
 	ft_lists_1_bonus.c\
 	ft_lists_2_bonus.c\
+	\
+	ft_utils.c\
+	ft_trashs.c\
+	\
 	ft_printf.c\
 	ft_printf_utils.c\
-	ft_utils.c\
-	ft_trashs.c
+	\
+	get_next_line.c\
+	get_next_line_bonus.c
 
 OBJ = $(SRC:.c=.o)
 
